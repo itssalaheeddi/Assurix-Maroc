@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+  <body>
+    <h1>Chess Game</h1>
+    <button onclick="sawbDama()">Start the game</button>
+    <div id="dvBtn">
+      <table>
+        <tr>
+          <td></td>
+          <td><img class="icon" src="IMAGE/32213.png" id="btnTop" /></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              class="icon"
+              src="IMAGE/32213.png"
+              id="btnLeft"
+              onclick="mchiLchmal()"
+            />
+          </td>
+          <td></td>
+          <td>
+            <img
+              class="icon"
+              src="IMAGE/32213.png"
+              id="btnRight"
+              onclick="mchiLimin()"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><img class="icon" src="IMAGE/32213.png" id="btnBottom" /></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <div id="dvGrid"></div>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
